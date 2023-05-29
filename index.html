@@ -13,6 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome/css/all.css">
 	
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="script/index.js"></script>
 	</head>
 	<body>
 		<header id="top">
@@ -106,9 +107,9 @@
 			</div>
 			<div class = 'about-item-left'> 
 				<div class = "about-description">
-					<h4>Early 2020</h4>
+					<h4>2008-2012</h4>
 					<h4>A Vision is Born</h4>
-					<p>In 2020, I learned about the internship program from Preface Coding. This program inspires me on programming  I had been looking for. </p>
+					<p> I remember the first time I saw a computer, it was like a magical box that could do anything. I was fascinated by the way it could process information and perform complex calculations in a matter of seconds. </p>
 				</div>
 				<div class = "about-image-container">
 					<img src="images/old_computer.jpeg">
@@ -121,30 +122,30 @@
 				
 				<div class = "about-description">
 					<h4>Early 2020</h4>
-					<h4>A Vision is Born</h4>
+					<h4>First Internship</h4>
 					<p>In 2020, I learned about the internship program from Preface Coding. This program inspires me on programming  I had been looking for. </p>
 				</div>
 			</div>
 		
 			<div class = 'about-item-left'> 
 				<div class = "about-description">
-					<h4>2020-2021</h4>
-					<h4>Internship at beNovelty Limited, HKSTP</h4>
-					<p>Worked with talented developers and acquired fruitful Software Development Skills with the team.</p>
+					<h4>2021-2022</h4>
+					<h4>Majoring in Computer Science at HKBU</h4>
+					<p>Eventually decided to officially study Computer Science at University. Drawn to learn of solid foundation of theories and pricipals in various CS aspects.</p>
 				</div>
 				<div class = "about-image-container">
-					<img src="images/beNovelty_backendTeam.jpeg">
+					<img src="images/HKBU_COMP.png">
 				</div>
 			</div>
 			<div class = 'about-item-right'> 
 				<div class = "about-image-container">
-					<img src="images/Cloud_aws.png">
+					<img src="images/beNovelty_backendTeam.jpeg">
 				</div>
 				
 				<div class = "about-description">
 					<h4>2021-2022</h4>
-					<h4>On-field Working on Cloud Computing</h4>
-					<p>Another Internship that drives my growth. I wrote and build Applications, Code Test programs as a worker at a solution company, for business clients.</p>
+					<h4>Internship at beNovelty Limited, HKSTP</h4>
+					<p>Another Internship that drives my growth. Worked with talented developers and acquired fruitful Software Development Skills with the team. I  built a bunch of applications on Cloud and wrote API as well as code-testing programs for business clients.</p>
 				</div>
 			</div>
 			<div class = 'about-item-left'> 
@@ -163,7 +164,7 @@
 				</div>
 				
 				<div class = "about-description">
-					<h4>2022-2023</h4>
+					<h4>2023</h4>
 					<h4>Computer Vision</h4>
 					<p>Engagement on researches and projects in the area of Machine Learning nad Computer Vision.</p>
 				</div>
@@ -245,28 +246,31 @@
 				</div>
 			</div>
 		</section>
-
+		
 		<section id="contact">
 			<div class = "contact-inner">
 				
 				<h2>CONTACT ME</h2>
 				<h3>Interested if I'd be the right fit for your team? Fill in this form and I will react you out ASAP</h3>
-				<form method = "post" action = "">
+				<form action="https://getform.io/f/0b3f2f24-50dd-4d7d-b290-c3ffe18983b0" method="POST" enctype="multipart/form-data">
+			
 					<div class="form-container">
 						<div class="form-left">
 							
-							<input type="text" id="name" placeholder="Your Name*">
+							<input type="text" id="name" name="name" placeholder="Your Name*">
 							<input type="text" id="email" name="email"placeholder="Your Email*">
-							<input type="text" id="phone" placeholder="Your Phone">
+							<input type="text" id="phone" name="phone" placeholder="Your Phone">
 						</div>
 						<div class="form-right">
-							<textarea  type="textarea" placeholder="Your Message*"></textarea>
+							<textarea  type="textarea" name="message" placeholder="Your Message*"></textarea>
 						</div>
 						
 					</div>
 					
 			  </form>
-			  <div class="submit"><a href="" class="button">SEND MESSAGE</a></div>
+
+
+			  <div class="submit"><button type ="submit" href="" class="button" onclick="sendEmail()" >SEND MESSAGE</button></div>
 			  
 			</div>
 		</section>
